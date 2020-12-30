@@ -1,0 +1,111 @@
+body{
+    background-image: url(./Ressources/backgroundgrey.jpg);
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: "Press Start 2P";
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1:hover{
+    text-shadow: 5px 5px 5px black;
+}
+
+#container{
+    margin: auto;
+    width: 75%;
+    height: 620px;
+    margin-top: 5%;
+}
+
+.bloc{
+    width: 420px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    float: left;
+    margin-left: 35px;
+    border-radius: 10px;
+    border: solid 4px white;
+    position: relative;
+}
+
+#blocquentin:hover{
+    box-shadow: 5px 5px 5px rgb(15, 99, 255);
+}
+
+#blocalexis:hover{
+    box-shadow: 5px 5px 5px rgb(35, 207, 19);
+}
+
+#blocchaid:hover{
+    box-shadow: 5px 5px 5px rgb(180, 0, 0);
+}
+
+.bloc h2{
+    font-size: 100px;
+    font-family: Arial;
+    position: relative;
+    left: 70px;
+    color: black;
+    font-family: Bangers;
+    top: -50px;
+    text-shadow: 3px 3px 3px rgb(167, 167, 167);
+}
+
+.bitmoji{
+    position: relative;
+    height: 400px;
+    margin: auto;
+    left: -240px;
+    top: 50px
+}
+
+a{
+    color: black;
+}
+
+/* #blocquentin h2{
+    -webkit-text-stroke:rgb(15, 99, 255) 2px;
+}
+
+#blocalexis h2{
+    -webkit-text-stroke: rgb(35, 207, 19) 2px;
+}
+
+#blocchaid h2{
+    -webkit-text-stroke: rgb(180, 0, 0) 2px;
+} */
+
+/* #simplon{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+
+} */
+
+
+
+#baspage{
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    top: 35px;
+}
+
+#blocquentin{
+    background-image: url(./Ressources/backcadrebleu.jpg);
+}
+
+#blocalexis{
+    background-image: url(./Ressources/backcadrevert.jpg);
+}
+
+#blocchaid{
+    background-image: url(./Ressources/backcadrerouge.jpg);
+}
