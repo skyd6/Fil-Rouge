@@ -1,0 +1,259 @@
+#container{
+
+    /* width: 1440px; */
+    width: 75%;
+    height: 2100px;
+    margin: auto;
+    background-image: url(./Ressources/doodleback.jpg);
+    background-size: 100%;
+    border-end-start-radius: 25px;
+    border-end-end-radius: 25px;
+    border: solid 3px rgb(36, 36, 36);
+    /* background-color: white; */
+    /* box-shadow: 5px 5px 10px black; */
+}
+
+body{
+    background-image: url(./Ressources/blackwall.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#card{
+    /* border: solid black 1px; */
+    box-shadow: 2px 2px 4px black;
+    width: 22%;
+    height: 350px;
+    border-radius: 15px;
+    background-image: url(./Ressources/whitewallpaper.jpg);
+    background-size: 300%;
+    float: left;
+    position: relative;
+    left: 5px;
+}
+
+#profilicon{
+    float: left;
+}
+
+
+#card h3{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#card p{
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    top: -50px;
+    font-family: "Raleway";
+    font-weight: bold;
+}
+
+#artistes{
+    color: rgb(88, 166, 255);
+}
+
+#etoile1{
+    position: relative;
+    left: 150px;
+    top: -50px;
+}
+
+#etoile2{
+    position: relative;
+    left: -110px;
+    top: 100px;
+}
+
+#etoile3{
+    position: relative;
+    left: 70px;
+    top: 220px;
+}
+
+.img{
+    width: 180px;
+    height: 180px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    position: relative;
+    margin: auto;
+    left: 20px;
+}
+
+.img:hover{
+    opacity: 80%;
+}
+
+
+#card2{
+    /* border: solid black 1px; */
+    box-shadow: 2px 2px 4px black;
+    width: 25%;
+    height: 350px;
+    border-radius: 15px;
+    background-image: url(./Ressources/whitewallpaper.jpg);
+    background-size: 110%;
+    position: relative;
+    top: -360px;
+    left: 1060px;
+}
+
+
+#card2 table, td, th, tr
+{
+    border: solid black 1px;;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+}
+
+#card2 table{
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.note{
+    color: rgb(255, 123, 0);
+}
+
+#parcoursligne1{
+    display: flex;
+    position: relative;
+    left: 16%;
+}
+
+.card{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 10px black;
+}
+
+
+#parcoursligne2{
+    display: flex;
+    position: relative;
+    left: 16%;
+}
+
+
+h2{
+    font-size: 50px;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    background-color: #212429;
+    background-size: 50%;
+    color: white;
+    margin-top: 10px;
+    font-family: "Permanent Marker";
+}
+
+#card2 h3{
+    font-size: 50px;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+#parcours{
+    position: relative;
+    top: -250px;
+}
+
+#contact{
+    position: relative;
+    top: -200px
+}
+
+#presentation h2{
+    margin-bottom: 50px;
+}
+
+#contactform {
+    margin: auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: white;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+.button {
+    padding-left: 90px; 
+  }
+  
+.button {
+    margin-left: .5em;
+  }
+
+#astronaute{
+    position: absolute;
+    top: 17px;
+    left: 10px;
+    width: auto;
+    height: auto;
+}
+
+#hautdepage{
+    position: absolute;
+    left: 1200px;
+    top: 480px;
+}
+
+#copy{
+    color: white;
+    text-align: center;
+
+}
+
+.firstletter{
+    color: rgb(228, 0, 0);
+}
+
+/* @media (max-width: 1024px) and (max-height: 768px){
+    .img{
+        height: 100px;
+        width: 100px;
+    }
+    #card{
+        width: 250px;
+        height: 300px;
+        top: -40px;
+    }
+} */
+
